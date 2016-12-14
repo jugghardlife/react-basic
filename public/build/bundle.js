@@ -82,10 +82,17 @@
 	        "div",
 	        null,
 	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          "Hello"
-	        )
+	          _reactRouter.Link,
+	          { to: "/hello1" },
+	          "Hello1"
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/hello2" },
+	          "Hello2"
+	        ),
+	        _react2.default.createElement("br", null)
 	      );
 	    }
 	  }]);
@@ -112,7 +119,25 @@
 	          "h1",
 	          null,
 	          "Hello1"
-	        )
+	        ),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/" },
+	          "Hello"
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/hello1" },
+	          "Hello1"
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/hello2" },
+	          "Hello2"
+	        ),
+	        _react2.default.createElement("br", null)
 	      );
 	    }
 	  }]);
@@ -139,7 +164,25 @@
 	          "h1",
 	          null,
 	          "Hello2"
-	        )
+	        ),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/" },
+	          "Hello"
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/hello1" },
+	          "Hello1"
+	        ),
+	        _react2.default.createElement("br", null),
+	        _react2.default.createElement(
+	          _reactRouter.Link,
+	          { to: "/hello2" },
+	          "Hello2"
+	        ),
+	        _react2.default.createElement("br", null)
 	      );
 	    }
 	  }]);

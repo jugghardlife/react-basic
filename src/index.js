@@ -1,12 +1,13 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import {Router,Route,browserHistory} from "react-router";
+import {Router,Route,browserHistory,Link} from "react-router";
 
 class App extends React.Component{
   render(){
     return(
       <div>
-        <h1>Hello</h1>
+        <Link to='/hello1'>Hello1</Link><br/>
+        <Link to='/hello2'>Hello2</Link><br/>
       </div>
     )
   }
@@ -17,6 +18,9 @@ class Hello1 extends React.Component{
     return(
       <div>
         <h1>Hello1</h1>
+        <Link to='/'>Hello</Link><br/>
+        <Link to='/hello1'>Hello1</Link><br/>
+        <Link to='/hello2'>Hello2</Link><br/>
       </div>
     )
   }
@@ -27,6 +31,9 @@ class Hello2 extends React.Component{
     return(
       <div>
         <h1>Hello2</h1>
+        <Link to='/'>Hello</Link><br/>
+        <Link to='/hello1'>Hello1</Link><br/>
+        <Link to='/hello2'>Hello2</Link><br/>
       </div>
     )
   }
